@@ -1,6 +1,6 @@
 class Student < User
 
-  @@knowledge = []
+  @knowledge = []
 
   def learn(string)
     @@knowledge << string
