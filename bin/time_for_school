@@ -23,6 +23,8 @@ jim = Student.new
 jim.first_name = "Asian Jim"
 jim.last_name = "Jones"
 jim.learn("Bears. Beets. Battlestar Galactica.")
+jim.learn("Identity theft is a serious crime, Jim!")
+jim.learn("Millions of people suffer every year!")
 puts "Jim outputs '#{jim.knowledge.first}'"
 
 puts jim.knowledge
