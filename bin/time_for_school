@@ -23,4 +23,4 @@ jim = Student.new
 jim.first_name = "Asian Jim"
 jim.last_name = "Jones"
 jim.learn("Bears. Beets. Battlestar Galactica.")
-puts "Jim outputs #{jim.knowledge.first}"
+puts "Jim outputs '#{jim.knowledge.first}'"
